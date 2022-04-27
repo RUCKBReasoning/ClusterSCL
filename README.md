@@ -50,15 +50,17 @@ Loss function
 The loss function ClusterSCL in elboCL.py takes a batch of node embeddings (L2 normalized) and the nodes' labels as input, and return the loss value.
 
 Running the code
-====
-(1) Create a folder `save/` to store results.
+====(1) Create a folder to store results.
+```
+$ mkdir save
+```
 
 (2) To run the example, execute:
 ```
 $ sh run_pubmed.sh
 ```
 
-Notes: the optimal hyper-parameters could be somewhat different under different environments (e.g., different devices and different versions of PyTorch), you can use the suggested method introduced in our paper to choose the combination of hyper-parameters.
+Notes: the experimental results and optimal hyper-parameters could be somewhat different under different environments (e.g., different devices and different versions of PyTorch), you can use the suggested method introduced in our paper to choose the combination of hyper-parameters.
 
 Reference
 ====
